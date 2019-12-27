@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\Units">
+      <UniqueIdentifier>{7e5cea47-0459-443a-87ac-83453d50e2e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\SpecialAttacks">
+      <UniqueIdentifier>{4a3c9bba-aba9-4324-8fc9-35b37ad9a6d4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Battle.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Army.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleArmy.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleUnitsStack.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="SpecialAttack.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="SpecialAttacks.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Units.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitsStack.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Angel.h">
+      <Filter>Файлы заголовков\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="BoneDragon.h">
+      <Filter>Файлы заголовков\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Crossbowman.h">
+      <Filter>Файлы заголовков\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Cyclops.h">
+      <Filter>Файлы заголовков\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Devil.h">
+      <Filter>Файлы заголовков\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Fury.h">
+      <Filter>Файлы заголовков\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Griffin.h">
+      <Filter>Файлы заголовков\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Hydra.h">
+      <Filter>Файлы заголовков\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Lich.h">
+      <Filter>Файлы заголовков\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Shawoman.h">
+      <Filter>Файлы заголовков\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Skeleton.h">
+      <Filter>Файлы заголовков\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Acceleration.h">
+      <Filter>Файлы заголовков\SpecialAttacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Attenuation.h">
+      <Filter>Файлы заголовков\SpecialAttacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Curse.h">
+      <Filter>Файлы заголовков\SpecialAttacks</Filter>
+    </ClInclude>
+    <ClInclude Include="PunishingHit.h">
+      <Filter>Файлы заголовков\SpecialAttacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Resurrection.h">
+      <Filter>Файлы заголовков\SpecialAttacks</Filter>
+    </ClInclude>
+    <ClInclude Include="draw.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="BATTLE_API.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="ArmyFactory.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Army.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleArmy.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleUnitsStack.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="draw.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,63 @@
+﻿  Battle.cpp
+C:\Users\79217\Desktop\Battle\Unit.h(50,30): warning C4251:  Unit::m_features: class "std::set<Unit::Feature,std::less<_Kty>,std::allocator<_Kty>>" должен иметь dll-интерфейс для использования клиентами class "Unit"
+C:\Users\79217\Desktop\Battle\Unit.h(50,30): warning C4251:         with
+C:\Users\79217\Desktop\Battle\Unit.h(50,30): warning C4251:         [
+C:\Users\79217\Desktop\Battle\Unit.h(50,30): warning C4251:             _Kty=Unit::Feature
+C:\Users\79217\Desktop\Battle\Unit.h(50,30): warning C4251:         ]
+C:\Users\79217\Desktop\Battle\Unit.h(29): message :   см. объявление "std::set<Unit::Feature,std::less<_Kty>,std::allocator<_Kty>>"
+C:\Users\79217\Desktop\Battle\Unit.h(29): message :         with
+C:\Users\79217\Desktop\Battle\Unit.h(29): message :         [
+C:\Users\79217\Desktop\Battle\Unit.h(29): message :             _Kty=Unit::Feature
+C:\Users\79217\Desktop\Battle\Unit.h(29): message :         ]
+C:\Users\79217\Desktop\Battle\Unit.h(52,20): warning C4251:  Unit::m_type: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "Unit"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Users\79217\Desktop\Battle\Unit.h(56,35): warning C4251:  Unit::m_damageRange: struct "std::pair<int,int>" должен иметь dll-интерфейс для использования клиентами class "Unit"
+C:\Users\79217\Desktop\Battle\Unit.h(28): message :   см. объявление "std::pair<int,int>"
+C:\Users\79217\Desktop\Battle\UnitsStack.h(22,30): warning C4251:  UnitsStack::m_unit: class "std::shared_ptr<Unit>" должен иметь dll-интерфейс для использования клиентами class "UnitsStack"
+C:\Users\79217\Desktop\Battle\UnitsStack.h(22): message :   см. объявление "std::shared_ptr<Unit>"
+C:\Users\79217\Desktop\Battle\BattleUnitsStack.h(43,48): warning C4251:  BattleUnitsStack::m_spells: class "std::vector<std::shared_ptr<Spell>,std::allocator<_Ty>>" должен иметь dll-интерфейс для использования клиентами class "BattleUnitsStack"
+C:\Users\79217\Desktop\Battle\BattleUnitsStack.h(43,48): warning C4251:         with
+C:\Users\79217\Desktop\Battle\BattleUnitsStack.h(43,48): warning C4251:         [
+C:\Users\79217\Desktop\Battle\BattleUnitsStack.h(43,48): warning C4251:             _Ty=std::shared_ptr<Spell>
+C:\Users\79217\Desktop\Battle\BattleUnitsStack.h(43,48): warning C4251:         ]
+C:\Users\79217\Desktop\Battle\BattleUnitsStack.h(39): message :   см. объявление "std::vector<std::shared_ptr<Spell>,std::allocator<_Ty>>"
+C:\Users\79217\Desktop\Battle\BattleUnitsStack.h(39): message :         with
+C:\Users\79217\Desktop\Battle\BattleUnitsStack.h(39): message :         [
+C:\Users\79217\Desktop\Battle\BattleUnitsStack.h(39): message :             _Ty=std::shared_ptr<Spell>
+C:\Users\79217\Desktop\Battle\BattleUnitsStack.h(39): message :         ]
+C:\Users\79217\Desktop\Battle\BattleUnitsStack.h(44,40): warning C4251:  BattleUnitsStack::m_abilities: class "std::vector<Unit::Feature,std::allocator<_Kty>>" должен иметь dll-интерфейс для использования клиентами class "BattleUnitsStack"
+C:\Users\79217\Desktop\Battle\BattleUnitsStack.h(44,40): warning C4251:         with
+C:\Users\79217\Desktop\Battle\BattleUnitsStack.h(44,40): warning C4251:         [
+C:\Users\79217\Desktop\Battle\BattleUnitsStack.h(44,40): warning C4251:             _Kty=Unit::Feature
+C:\Users\79217\Desktop\Battle\BattleUnitsStack.h(44,40): warning C4251:         ]
+C:\Users\79217\Desktop\Battle\BattleUnitsStack.h(40): message :   см. объявление "std::vector<Unit::Feature,std::allocator<_Kty>>"
+C:\Users\79217\Desktop\Battle\BattleUnitsStack.h(40): message :         with
+C:\Users\79217\Desktop\Battle\BattleUnitsStack.h(40): message :         [
+C:\Users\79217\Desktop\Battle\BattleUnitsStack.h(40): message :             _Kty=Unit::Feature
+C:\Users\79217\Desktop\Battle\BattleUnitsStack.h(40): message :         ]
+C:\Users\79217\Desktop\Battle\ArmyFactory.h(26,60): warning C4251:  ArmyFactory::m_unitsCatalog: class "std::vector<std::shared_ptr<Unit>,std::allocator<_Ty>>" должен иметь dll-интерфейс для использования клиентами class "ArmyFactory"
+C:\Users\79217\Desktop\Battle\ArmyFactory.h(26,60): warning C4251:         with
+C:\Users\79217\Desktop\Battle\ArmyFactory.h(26,60): warning C4251:         [
+C:\Users\79217\Desktop\Battle\ArmyFactory.h(26,60): warning C4251:             _Ty=std::shared_ptr<Unit>
+C:\Users\79217\Desktop\Battle\ArmyFactory.h(26,60): warning C4251:         ]
+C:\Users\79217\Desktop\Battle\ArmyFactory.h(19): message :   см. объявление "std::vector<std::shared_ptr<Unit>,std::allocator<_Ty>>"
+C:\Users\79217\Desktop\Battle\ArmyFactory.h(19): message :         with
+C:\Users\79217\Desktop\Battle\ArmyFactory.h(19): message :         [
+C:\Users\79217\Desktop\Battle\ArmyFactory.h(19): message :             _Ty=std::shared_ptr<Unit>
+C:\Users\79217\Desktop\Battle\ArmyFactory.h(19): message :         ]
+C:\Users\79217\Desktop\Battle\Battle.h(49,54): warning C4251:  Battle::m_initiativeScale: class "std::deque<BattleUnitsStack *,std::allocator<_Ty>>" должен иметь dll-интерфейс для использования клиентами class "Battle"
+C:\Users\79217\Desktop\Battle\Battle.h(49,54): warning C4251:         with
+C:\Users\79217\Desktop\Battle\Battle.h(49,54): warning C4251:         [
+C:\Users\79217\Desktop\Battle\Battle.h(49,54): warning C4251:             _Ty=BattleUnitsStack *
+C:\Users\79217\Desktop\Battle\Battle.h(49,54): warning C4251:         ]
+C:\Users\79217\Desktop\Battle\Battle.h(37): message :   см. объявление "std::deque<BattleUnitsStack *,std::allocator<_Ty>>"
+C:\Users\79217\Desktop\Battle\Battle.h(37): message :         with
+C:\Users\79217\Desktop\Battle\Battle.h(37): message :         [
+C:\Users\79217\Desktop\Battle\Battle.h(37): message :             _Ty=BattleUnitsStack *
+C:\Users\79217\Desktop\Battle\Battle.h(37): message :         ]
+C:\Users\79217\Desktop\Battle\SpecialAttack.h(17,20): warning C4251:  Spell::m_name: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "Spell"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4343): message :   см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Users\79217\Desktop\Battle\Battle.cpp(83,43): warning C4267:  =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\79217\Desktop\Battle\Battle.cpp(200,49): warning C4267:  инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     ╤ючфрхЄё  сшсышюЄхър C:\Users\79217\Desktop\Battle\x64\Debug\Battle.lib ш юс·хъЄ C:\Users\79217\Desktop\Battle\x64\Debug\Battle.exp
+  Battle.vcxproj -> C:\Users\79217\Desktop\Battle\x64\Debug\Battle.dll
